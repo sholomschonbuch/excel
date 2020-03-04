@@ -13,6 +13,6 @@ quantity = 0
 for row in data:
     quantity += row[10]
     if quantity > 24:
-        print("quantity")
+        print("quantity!")
         quantity = 0
         
